@@ -1,0 +1,35 @@
+
+h1{
+
+    text-align: center;
+}
+
+
+.presentation {
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    align-items: stretch;
+}
+
+p{
+    width: 500px;
+    height: 400px;
+    text-align: unset;
+   
+}
+
+h2{
+
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.presentation2 {
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    flex-direction: row-reverse;
+}
