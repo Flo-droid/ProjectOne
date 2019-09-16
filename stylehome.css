@@ -1,0 +1,28 @@
+html{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+header{
+    background-image: url("https://via.placeholder.com/140");
+    padding: 100px;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    border: solid black 3px;
+    background-color: aqua;
+    height: 80px;
+}
+
+
