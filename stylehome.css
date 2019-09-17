@@ -1,28 +1,83 @@
-html{
-    box-sizing: border-box;
-}
+html{box-sizing: border-box;}
 
 h1{
     text-align: center;
+    margin: 0;
 }
 
 header{
     background-image: url("https://via.placeholder.com/140");
-    padding: 100px;
+    height: 600px;
 }
 
-ul{
-    list-style-type: none;
-    display:flex;
-    justify-content: space-between;
+nav{height: 500px;}
+
+nav div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: inherit;
+    align-items: center;
 }
 
-nav ul li a{
-    text-decoration: none;
-    padding: 20px;
-    border: solid black 3px;
+nav a{
+    padding: 30px;
     background-color: aqua;
-    height: 80px;
+    border: solid black 3px;
+    text-decoration: none;
+    width: 15%;
+    height: 15%;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
+h2{
+    text-align: center;
+}
 
+section div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+figure{
+    width: 25%;
+    text-align: center;
+}
+
+img{
+    width: 140px;
+    height: 140px;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px;
+}
+
+footer a:hover{
+    background-color: white;
+    color: black;
+}
+
+/*@media (max-width:750px) {
+    figure{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}*/
