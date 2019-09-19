@@ -87,3 +87,18 @@ textarea{
 .sizeButton{
     width: 10%;
 }
+
+@media (max-width: 650px) {
+
+    .empty{
+        height: 8vh;   
+    }
+
+    form{
+        height: 300px;
+    }
+
+    .sizeButton{
+        width: 75px;
+    }
+}
