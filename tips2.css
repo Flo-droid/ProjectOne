@@ -2,7 +2,7 @@ body {
 
     margin: 0;
     font-family: 'Satisfy', cursive;
-    
+    background-image: url("images/back.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
