@@ -24,6 +24,7 @@ h1{
     background-image: url("https://cdn.aarp.net/content/dam/aarp/research/surveys_statistics/life-leisure/2018/images/1140-travel-photos-collage.imgcache.rev137eb6da3017f818cfdfd855d73f1250.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-bottom: 80px;
 }
 
 
@@ -190,7 +191,7 @@ article, a{
     right: 30px; 
   } 
   #scroll_to_top img { 
-    width: 40px; 
+    width: 60px; 
   }
 
   .bali {

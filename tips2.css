@@ -65,9 +65,11 @@ h1{
 
 .entête{
 
-    background-image: url("https://www.acs-ami.com/fr/blog/wp-content/uploads/2018/10/preparer-un-long-voyage.jpg");
+    background-image: url("images/tete.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    margin-bottom: 80px;
+    
 }
 
 p{
@@ -357,7 +359,7 @@ article, a{
 
 #scroll_to_top { 
     position: fixed; 
-    width: 40px; 
+    width: 40px;
     height: 40px; 
     bottom: 50px; 
     right: 30px; 
