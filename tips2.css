@@ -1,49 +1,83 @@
 body {
+
     margin: 0;
     font-family: 'Satisfy', cursive;
-    background-repeat: no-repeat ;
     
     background-size: 100%;
-    background-image: url(https://www.voyageavecnous.fr/wp-content/uploads/2017/04/preparer-voyage-etranger.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
 }
 
-
 .boutonmenuprincipal {
-    background-color:rgb(157, 226, 157);
-    color: white;
-    border: none;
+    background-color:white;
+   color: white;
+   border: none;
     cursor: pointer;
-    padding:20px;
-    font-size: 30px;
- }
- .boutonmenuprincipal:hover {
-    background-color: mediumseagreen;
-    }
- .dropdown {
-    position: relative;
-    display: inline-block;
-    
-    }
- .dropdown-child {
-    display: none;
-    background-color:darkseagreen;
-    min-width: 50px;
-    }
- .dropdown-child a {
-    color: white;
-    padding: 20px;
-    text-decoration: none;
-    display: block;
- }
- .dropdown:hover .dropdown-child {
- display: block;
- }
+   font-size: 10px;
+   }
+.dropdown {
+       position: relative;
+       display: flex;
+       font-size: 25px;
+       }
+.dropdown-child {
+       display: none;
+       background-color:darkseagreen;
+       min-width: 10px;
+       }
+.dropdown-child a {
+       color: white;
+       padding: 15px;
+       text-decoration: none;
+       display: block;
+   }
+.dropdown:hover .dropdown-child {
+   display: block;
+   }
+nav {
+   position: absolute;
+}
+
 
 header {
 
     position: absolute;
-    font-size: 20px;
+    margin: 0;
+   
 }
+
+h1{
+
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  
+   
+   
+}
+
+
+.entête{
+
+    background-image: url("https://www.acs-ami.com/fr/blog/wp-content/uploads/2018/10/preparer-un-long-voyage.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+p{
+   
+    font-size: 26px;
+    
+    
+}
+
+
 
 li{
     display: inline-flex;
@@ -51,79 +85,45 @@ li{
     text-decoration: none;
     margin : 0px 10px 0px 10px;
     font-size: 20px;
-    
-
-}
-
-li, a {
-
-    color:white;
-    text-decoration: none;
 }
 
 
 
 ul {
-  
+
     list-style-type:none;
     padding:  0;
     margin: 0;
     overflow: hidden;
-    
-    
+
+
 }
 
 h1{
 
     text-align: center;
-    margin:0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
-    height: 300px;
-    margin-bottom: 20px;
-    
-
+    font-size: 130px;
 }
-
-.container {
-
-    margin-top : 0;
-    padding: 0;
-    height: 300px;
-}
-
 
 h3, h2{
 
     text-align: center;
-    margin-bottom: 60px;
-    margin-top: 100px;
-    font-size: 40px;
-    
+    margin-bottom: 80px;
+    margin-top: 80px;
+    font-size: 50px;
 
-    
 }
 
 .first {
-    margin-top: 280px;
+
+    margin-top: 120px;
 }
-
-p{
-
-
-    font-size: 30px;
-
-
-}
-
 
 .kayak {
 
     margin-left: 20px;
     display: flex;
-    
+
 }
 
 .kayak, p {
@@ -131,7 +131,7 @@ p{
     align-items: center;
     margin-right: 20px;
     padding: 0;
-   
+
 
 }
 
@@ -148,7 +148,7 @@ p{
     align-items: center;
     margin-right: 20px;
     padding: 0;
-   
+
 
 }
 
@@ -269,12 +269,7 @@ p{
     align-items: center;
     margin-right: 20px;
     padding: 0;
-    
-}
-
-.ministere, p, img{
-
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .vpn{
@@ -297,25 +292,52 @@ p{
 }
 
 
+.styled {
+    border: 0;
+    line-height: 4;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(78, 116, 128);
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+
+
+}
+
+.styled:hover {
+    background-color: rgb(53, 172, 132);
+}
+
+.button{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+} 
+
 article{
     display: flex;
     width: 180px;
-    height: 100px;
+    height: 120px;
     align-items: center;
-    border-radius: 120px;
+    border-radius:40px;
     text-align: center;
     padding: 5px;
     font-size: 30px;
-    background-color:  rgb(157, 226, 157);
-    -webkit-border-radius: 120px;
-    -moz-border-radius: 120px;
-    -ms-border-radius: 120px;
-    -o-border-radius: 120px;
+    background-color:  rgb(114, 165, 139);
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    -ms-border-radius:40px;
+    -o-border-radius:40px;
 }
 
 .article :hover{
 
-    background-color: rgb(25, 116, 66);
+    background-color: mediumseagreen;
     opacity: 0.8;
    
 }
@@ -323,6 +345,7 @@ article{
 .article{
     display: flex;
     justify-content: space-around;
+    
 
     
 }
@@ -332,18 +355,54 @@ article, a{
     color: black;
 }
 
-
 #scroll_to_top { 
     position: fixed; 
     width: 40px; 
     height: 40px; 
     bottom: 50px; 
     right: 30px; 
+    
   } 
   #scroll_to_top img { 
-    width: 40px; 
+    width: 60px; 
   }
 
+  .livre1{
 
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
 
+  }
 
+  .paralivre {
+
+    width: 500px;
+    height: 350px;
+  }
+
+  .paralivre p {
+
+    margin-bottom: 60px;
+    
+  }
+
+  .comp {
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-left: 40px;
+    
+  }
+
+  .comp p {
+
+    font-size: 20px;
+  }
+
+  .comp article {
+
+    font-size: 20px;
+  }
