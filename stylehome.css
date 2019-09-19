@@ -99,10 +99,19 @@ footer a:hover{
     height: 100px;
 }
 
-/*@media (max-width:750px) {
-    figure{
+@media (max-width:650px) {
+    section div{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-}*/
+
+    figure{
+        margin-bottom: 7vh;
+        width: 80%;
+    }
+
+    footer{
+        margin-top: 5vh;
+    }
+}
